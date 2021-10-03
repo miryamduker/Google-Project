@@ -1,10 +1,7 @@
-# googleProject
-AutoCompleteData
-
-In this project we got a huge directory tree archive.
-We then let the user insert any word/sentence that he wishes.
-For that input wemust return and print the closest 5 matchest.
-A match is any line in the directory tree that contains the user's input.
+# Google Project
+Auto Complete Data
+In this project we got a directory.
+We then let the user insert a word/sentence, in which we return 5 top matches from the files in the directory.
 If there is no so match then we will search for a match of one mistake, which means that there can be either an additional character or a missing one or a wrong one.
 Searching through so much data can take a long time. That's why it's important to keep the data in an easy way to retrieve the data.
 We kept the data in a python dict where every word was a key and it's value was an array of data objects whose sentence contains this word .
